@@ -30,4 +30,4 @@ Try to apply _Black_ and _isort_ formatting (should work just by `ctrl+s` if you
 10. If you are happy with your fix, [stage and commit your changes with a message](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 11. Push your local changes to remote branch (just `git push`)
 12. You should now see your changes on GitHub branch if everything went as planned. \
-As a final step, open Pull Request from your branch to `main` and add @niemiaszek as a reviewer
+As a final step, open Pull Request from your branch to `add-ugly-code` and add @niemiaszek as a reviewer
