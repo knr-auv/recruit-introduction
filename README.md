@@ -24,10 +24,12 @@ It can be viewed via [GitHub](https://github.com/knr-auv/recruit-introduction/tr
 6. Firstly, [create remote branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) with naming `<your_nickname>/fix-ugly-code`. Make sure your new branch has `add-ugly-code` branch as a parent.
 7. Then, pull your local repository, so it will be aware of your new branch existance. `git pull`
 8. Once done, [checkout](https://git-scm.com/docs/git-checkout) to your new remote branch. You should see actual code appearing in your local directory.
-9. Now you can work on actual fix. \
-Try to fix problems suggested by PyLint. \
-Try to apply _Black_ and _isort_ formatting (should work just by `ctrl+s` if you setup VSC extensions correctly). 
-10. If you are happy with your fix, [stage and commit your changes with a message](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
-11. Push your local changes to remote branch (just `git push`)
-12. You should now see your changes on GitHub branch if everything went as planned. \
+9. Setup your Conda environment and add correct interpreter to VSC.
+10. Now you can work on actual fix.
+- Try to fix problems suggested by PyLint.
+- Apply _Black_ and _isort_ formatting (should work just by `ctrl+s` if you setup VSC extensions correctly).
+- Make code runnable without errors (run it with python). This way you can see, if your Conda environment is set up correctly.
+11. If you are happy with your fix, [stage and commit your changes with a message](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+12. Push your local changes to remote branch (just `git push`)
+13. You should now see your changes on GitHub branch if everything went as planned. \
 As a final step, open Pull Request from your branch to `add-ugly-code` and add @niemiaszek as a reviewer
