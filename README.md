@@ -4,7 +4,7 @@ live training for recruits
 ## Preliminaries
 - Access to this repository, member status in knr-auv organization
 - [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
-- VSCode extensions listed in [wiki Styles](https://github.com/knr-auv/docs/wiki/Styles)
+- VSCode extensions listed in [wiki Styles](https://github.com/knr-auv/docs/wiki/Style)
 - [Conda](https://github.com/knr-auv/docs/wiki/Conda)
 
 ## Materials
