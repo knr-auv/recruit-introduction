@@ -1,4 +1,4 @@
-""" Ta normalnie tutaj też docstring legancko tego"""
+""" Ta normally tutej tesh docstring elegant this"""
 from utils.utils import laugh_of
 
 if __name__ == "__main__":
