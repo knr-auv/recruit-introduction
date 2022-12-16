@@ -10,4 +10,5 @@ def laugh_of(name: str):
     print(f"hehe {name}")
 
 
-laugh_of("whops")
+if __name__ == "__main__":
+    laugh_of("whops")
