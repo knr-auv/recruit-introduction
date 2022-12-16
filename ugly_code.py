@@ -18,6 +18,6 @@ def insanely_long_function(
 
 
 if __name__ == "__main__":
-    print(cv2.__version__, np.__version__)
+    print(f"OpenCV version: {cv2.__version__}", f"NumPy version: {np.__version__}", sep='\n')
     test_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
     print(insanely_long_function("hehe", "siuuuu", 123132, test_array, "wow!"))
