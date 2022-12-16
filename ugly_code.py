@@ -1,3 +1,5 @@
+"""Creating an expanded statement function implementation.
+"""
 from dataclasses import dataclass
 
 import cv2
@@ -6,6 +8,8 @@ import numpy as np
 
 @dataclass
 class TextToConstructAnExtendedStatement:
+    """Input to create_an_expanded_statement function"""
+
     introduction: str
     number_to_be_squared: int
     text_to_be_shouted: str
@@ -14,6 +18,12 @@ class TextToConstructAnExtendedStatement:
 
 
 def create_an_expanded_statement(text_input: TextToConstructAnExtendedStatement):
+    """Creating an expanded statement.
+
+    It combines introduction, number raised to the second power,
+    text which is shouted (by changing letters to upper case),
+    expansion and conclusion of statement.
+    """
     what_are_we_even_doing = (
         text_input.introduction
         + str(text_input.number_to_be_squared**2)
