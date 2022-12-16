@@ -5,7 +5,7 @@ import numpy as np
 
 
 @dataclass
-class InsanelyLongFunctionInput:
+class TextToConstructAnExtendedStatement:
     introduction: str
     number_to_be_squared: int
     text_to_be_shouted: str
@@ -13,7 +13,7 @@ class InsanelyLongFunctionInput:
     conlusion: str
 
 
-def insanely_long_function(text_input: InsanelyLongFunctionInput):
+def create_an_expanded_statement(text_input: TextToConstructAnExtendedStatement):
     what_are_we_even_doing = (
         text_input.introduction
         + str(text_input.number_to_be_squared**2)
@@ -28,5 +28,7 @@ if __name__ == "__main__":
     print(f"OpenCV version: {cv2.__version__}", f"NumPy version: {np.__version__}", sep="\n")
     test_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
     print(
-        insanely_long_function(InsanelyLongFunctionInput("hehe", 123132, "siuuuu", np.array2string(test_array), "wow!"))
+        create_an_expanded_statement(
+            TextToConstructAnExtendedStatement("hehe", 123132, "siuuuu", np.array2string(test_array), "wow!")
+        )
     )
