@@ -1,0 +1,13 @@
+name: recruit
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+- python>=3.11
+- tqdm
+- pip
+- numpy
+- jupyterlab
+- pip:
+  - opencv-python
